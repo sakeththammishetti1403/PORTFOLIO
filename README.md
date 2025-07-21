@@ -26,18 +26,25 @@ Styling: Custom CSS (no external frameworks), CSS Flexbox, gradients, and media 
 
 Asset Handling: Public/static image referencing for reliable performance
 
-📁 Folder Structure
-text
 portfolio/
 ├── public/
 │   └── images/
+│       ├── blacksheep.jpg
+│       ├── event.jpg
+│       ├── logo.jpg
+│       └── pic.jpg
 ├── src/
 │   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Projects.js
+│   │   └── ProjectModal.js
 │   ├── data/
+│   │   └── projects.js
 │   ├── App.js
 │   ├── index.js
 │   └── body.css
 ├── package.json
 └── README.md
+
 
 
