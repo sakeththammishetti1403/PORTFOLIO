@@ -25,7 +25,7 @@ Frontend: React, JavaScript (ES6+), JSX
 Styling: Custom CSS (no external frameworks), CSS Flexbox, gradients, and media queries
 
 Asset Handling: Public/static image referencing for reliable performance
-
+<pre>'''
 portfolio/
 ├── public/
 │ └── images/
@@ -45,6 +45,7 @@ portfolio/
 │ └── body.css # Modern, colorful custom styles
 ├── package.json # npm + React dependencies
 └── README.md # Project documentation (this file)
+  '''</pre>
 
 
 
