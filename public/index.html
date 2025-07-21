@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thammishetti Saketh | Portfolio</title>
+  <link rel="stylesheet" href="body.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <!-- Top Navigation Bar with External Profiles and Toggle -->
+<header class="top-navbar">
+  <div class="navbar-left">
+    <span class="brand-logo">Saketh</span>
+  </div>
+  <nav class="navbar-menu" id="navbar-menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="navbar-right">
+    <!-- Social & Coding Links -->
+    <a href="mailto:thammishettisaketh104@gmail.com" title="Email" target="_blank"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/thammishetti-saketh/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/sakeththammishetti1403" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://leetcode.com/u/thammishettisaketh/" title="LeetCode" target="_blank"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="LeetCode" style="vertical-align: middle;"/></a>
+    <a href="https://www.codechef.com/users/sakethdaeamu" title="CodeChef" target="_blank"><img src="https://img.icons8.com/color/24/000000/codechef.png" alt="CodeChef" style="vertical-align: middle;"/></a>
+    <!-- Add other platforms as needed -->
+    <!-- Hamburger (toggle button) for mobile -->
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </a>
+  </div>
+</header>
+
+  <header>
+    <div class="header-content">
+      <div class="avatar-area">
+        <img src="images/pic.jpg" alt="Thammishetti Saketh" class="profile-img"/>
+      </div>
+      <div class="intro-text">
+        <h1>Hi There, <br>I'm <span class="highlight">Saketh Thammishetti</span></h1>
+        <p>I am into <span class="role-highlight">Web Development</span></p>
+        <a href="#about" class="primary-btn">About Me</a>
+        <div class="social-links">
+          <a href="https://github.com/sakeththammishetti1403" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/thammishetti-saketh/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://leetcode.com/u/thammishettisaketh/" title="LeetCode" target="_blank"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="LeetCode" style="vertical-align: middle;"/></a>
+          <a href="https://www.codechef.com/users/sakethdaeamu" title="CodeChef" target="_blank"><img src="https://img.icons8.com/color/24/000000/codechef.png" alt="CodeChef" style="vertical-align: middle;"/></a>
+          <a href="mailto:thammishettisaketh104@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>
+        Computer Science and Engineering student at B V Raju Institute of Technology, passionate about Full Stack Development and AI. I enjoy building real-world projects, collaborating at hackathons, and exploring cutting-edge technology.
+      </p>
+    </section>
+
+    <section id="projects" class="container">
+  <h2>Projects</h2>
+  <div class="project-list">
+    <!-- Project Card 1 -->
+    <div class="project-box" onclick="openModal('modal1')">
+      <div class="project-image">
+        <img src="images/vdr.jpg" alt="Virtual Dressing Room Screenshot"/>
+      </div>
+      <div class="project-content">
+        <h3>Virtual Dressing Room</h3>
+        <p>Try Clothes Virtually <span class="see-details">[see details]</span></p>
+      </div>
+    </div>
+    <!-- Modal for Project 1 -->
+    <div id="modal1" class="project-modal">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal1')">&times;</span>
+        <h3>Virtual Dressing Room using OpenCV & MediaPipe</h3>
+        <p>
+          <strong>Abstract:</strong> Developed a fully functional e-commerce website utilizing Generative Adversarial Networks (GANs) where users can virtually try on clothing, enhancing the online shopping experience and increasing sales.
+        </p>
+        <ul>
+          <li><strong>Technologies:</strong> HTML, CSS, JavaScript, OpenCV, MediaPipe, GANs</li>
+          <li><strong>Role:</strong> Full Stack Developer</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="project-box" onclick="openModal('modal2')">
+      <div class="project-image">
+        <img src="images/blacksheep.png" alt="E-Commerce Website Screenshot"/>
+      </div>
+      <div class="project-content">
+        <h3>E-Commerce Website</h3>
+        <p>Feature-rich Online Shop <span class="see-details">[see details]</span></p>
+      </div>
+    </div>
+    <!-- Modal for Project 2 -->
+    <div id="modal2" class="project-modal">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal2')">&times;</span>
+        <h3>E-Commerce Website</h3>
+        <p>
+          <strong>Abstract:</strong> Developed a responsive E-commerce website with real-time product search, authentication, shopping cart, and order management to enhance user experience and streamline online shopping.
+        </p>
+        <ul>
+          <li><strong>Technologies:</strong> JavaScript, HTML, CSS, Python, ReactJS</li>
+          <li><strong>Role:</strong> Full Stack Developer</li>
+          <li><strong>Live:</strong> <a href="https://theblacksheep3.com" target="_blank">theblacksheep3.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="project-box" onclick="openModal('modal3')">
+      <div class="project-image">
+        <img src="images/event.jpg" alt="Gen-AI Event Management Screenshot"/>
+      </div>
+      <div class="project-content">
+        <h3>Gen-AI Event Management</h3>
+        <p>AI-driven Events <span class="see-details">[see details]</span></p>
+      </div>
+    </div>
+    <!-- Modal for Project 3 -->
+    <div id="modal3" class="project-modal">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal3')">&times;</span>
+        <h3>Gen-AI Powered Event Management System</h3>
+        <p>
+          <strong>Abstract:</strong> Built an event management application using generative AI for dynamic scheduling and personalized engagement. Implemented RESTful APIs and led the development of user-facing components.
+        </p>
+        <ul>
+          <li><strong>Technologies:</strong> JavaScript, HTML, CSS, Python, AI integration</li>
+          <li><strong>Role:</strong> Full Stack Developer</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="skills" class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li><a href="https://www.python.org/" target="_blank"><img src="https://img.icons8.com/color/24/000000/python.png" alt="Python" style="vertical-align: middle;"/></a>
+        <li>HTML</li><a href="https://www.w3.org/html/" target="_blank"><img src="https://img.icons8.com/color/24/000000/html-5.png" alt="HTML" style="vertical-align: middle;"/></a>
+        <li>CSS</li><a href="https://www.w3.org/Style   /" target="_blank"><img src="https://img.icons8.com/color/24/000000/css3.png" alt="CSS" style="vertical-align: middle;"/></a>
+        <li>Java</li> <a href="https://www.java.com/" target="_blank"><img src="https://img.icons8.com/color/24/000000/java-coffee-cup-logo.png" alt="Java" style="vertical-align: middle;"/></a>
+        <li>C</li><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><img src="https://img.icons8.com/color/24/000000/c-programming.png" alt="C Programming" style="vertical-align: middle;"/></a>
+        <li>JavaScript</li><a href="https://www.javascript.com/" target="_blank"><img src="https://img.icons8.com/color/24/000000/javascript.png" alt="JavaScript" style="vertical-align: middle;"/></a>
+        <li>SQL</li><a href="https://www.w3schools.com/sql/" target="_blank"><img src="https://img.icons8.com/color/24/000000/mysql-logo.png" alt="SQL" style="vertical-align: middle;"/></a>
+        <li>ReactJS</li><a href="https://reactjs.org/" target="_blank"><img src="https://img.icons8.com/color/24/000000/react-native.png" alt="ReactJS" style="vertical-align: middle;"/></a>
+        <li>Git</li><a href="https://git-scm.com/" target="_blank"><img src="https://img.icons8.com/color/24/000000/git.png" alt="Git" style="vertical-align: middle;"/></a>
+        <li>VS Code</li><a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.icons8.com/color/24/000000/visual-studio-code-2019.png" alt="VS Code" style="vertical-align: middle;"/></a>
+      </ul>
+    </section>
+
+    <section id="certifications" class="container">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Python (Cisco)</li><a href="https://www.cisco.com/" target="_blank"></a>
+        <li>HTML (SoloLearn)</li><a href="https://www.sololearn.com/certificates/CC-PW8AOI6O" target="_blank"></a>
+        <li>CSS (SoloLearn)</li><a href="https://www.sololearn.com/certificates/CC-AEX8PVVL" target="_blank"></a>
+        <li>YESIST Bangalore</li><a href="https://www.yesist.org/" target="_blank"></a>
+        <li>ICCPCT Kerala</li><a href="https://www.iccpct.org/" target="_blank"></a>
+        <li>Introduction to AI</li><a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_8840337130015322000_shared/1-1d6fd88b-7109-4901-ad22-1dd2d6b82bf8.pdf" target="_blank"></a>
+      </ul>
+    </section>
+    <section id="activities" class="container">
+      <h2>Extra-Curricular Activities</h2>
+      <ul>
+        <li><b>Promethean TechFest Coordinator, BVRIT (2025):</b> Organized and hosted events for 450+ students, managed hackathons and speaker sessions.</li>
+        <li><b>Hackathon Participant (2024):</b> Team member in multiple technical competitions.</li>
+      </ul>
+    </section>
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Your email" required />
+        <textarea placeholder="Your message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p>
+        <b>Email:</b> thammishettisaketh104@gmail.com<br>
+        <b>Phone:</b> +91-9295853444
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Thammishetti Saketh. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+function toggleMenu() {
+  var nav = document.getElementById('navbar-menu');
+  nav.classList.toggle('active');
+}
+</script>
+<script>
+function openModal(id) {
+  document.getElementById(id).style.display = "block";
+}
+function closeModal(id) {
+  document.getElementById(id).style.display = "none";
+}
+// Optional: Allow closing modal by clicking outside the content
+window.onclick = function(event) {
+  document.querySelectorAll('.project-modal').forEach(function(modal) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  });
+}
+</script>
