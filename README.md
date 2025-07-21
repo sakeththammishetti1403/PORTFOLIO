@@ -28,23 +28,23 @@ Asset Handling: Public/static image referencing for reliable performance
 
 portfolio/
 ├── public/
-│   └── images/
-│       ├── blacksheep.jpg
-│       ├── event.jpg
-│       ├── logo.jpg
-│       └── pic.jpg
+│ └── images/
+│ ├── blacksheep.jpg # Main site/project image
+│ ├── event.jpg # Gen-AI project visual
+│ ├── logo.jpg # Branding logo
+│ └── pic.jpg # Portrait or additional use
 ├── src/
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   ├── Projects.js
-│   │   └── ProjectModal.js
-│   ├── data/
-│   │   └── projects.js
-│   ├── App.js
-│   ├── index.js
-│   └── body.css
-├── package.json
-└── README.md
+│ ├── components/
+│ │ ├── Navbar.js # Header and navigation menu
+│ │ ├── Projects.js # Project card grid
+│ │ └── ProjectModal.js # Modal popup for each project
+│ ├── data/
+│ │ └── projects.js # Projects' content/config
+│ ├── App.js # Main React app entry
+│ ├── index.js # App renderer
+│ └── body.css # Modern, colorful custom styles
+├── package.json # npm + React dependencies
+└── README.md # Project documentation (this file)
 
 
 
